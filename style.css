@@ -14,12 +14,12 @@
     --fw-normal-400: 400;
     --fw-bold-700: 700;
 
-    --fs-300: 0.88rem;
-    --fs-400: 0.94rem;
-    --fs-500: 1.25rem;
+    --fs-300:  clamp(0.85rem, 3vw + 1rem, 1rem);
+    --fs-400: clamp(0.94rem, 3vw + 1rem, 1.25rem);
+    --fs-500: clamp(1.25rem, 3vw + 1rem, 1.5rem);
 
-    --padding-flex: 1.5rem;
-    --gap-flex: 1rem;
+    --padding-flex: clamp(1.5rem, 3vw + 1rem, 2.5rem);
+    --gap-flex: clamp(1rem, 3vw + 1rem, 1.25rem);
 }
 
 *,
@@ -108,15 +108,6 @@ body {
         grid-template-areas: 
         "header header"
         "plan-card why-us";
-    }
-
-    :root {
-        --fs-400: 1.25rem;
-        --fs-300: 1rem;
-        --fs-500: 1.50rem;
-
-        --gap-flex: 1.25rem;
-        --padding-flex: 2.5rem;
     }
 
     .join-community-card:last-child {
