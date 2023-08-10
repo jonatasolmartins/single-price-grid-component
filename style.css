@@ -4,7 +4,8 @@
 :root {
     --clr-primary-400: hsl(179, 49%, 52%);
     --clr-primary-500: hsl(179, 62%, 43%);
-    --clr-secondary-bright-yellow: hsl(71, 73%, 54%);
+    --clr-secondary-bright-yellow: hsl(71, 73%, 49%);
+    --clr-secondary-brightest-yellow: hsl(71, 73%, 54%);
     --clr-neutral-light-gray: hsl(204, 43%, 93%);
     --clr-neutral-grayish-blue: hsl(218, 22%, 67%);
     --clr-neutral-100: hsla(0, 0%, 100%, 1);
@@ -194,6 +195,12 @@ body {
     width: 100%;
     background-color: var(--clr-secondary-bright-yellow);
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10);
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow
+}
+
+.plan-card button:hover {
+    cursor: pointer;
+    background-color: var(--clr-secondary-brightest-yellow);
 }
 
 .plan-condition {
