@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Fm Solution](https://www.frontendmentor.io/solutions/responsive-and-fluid-typography-c4W-t-oxvr)
 - Live Site URL: [single-price-grid-component](https://single-price-grid-component-five-gules.vercel.app/)
 
 ### Built with
