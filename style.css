@@ -23,6 +23,8 @@
     --gap-flex: clamp(1rem, 3vw + 1rem, 1.25rem);
 }
 
+
+
 *,
 *:before,
 *:after {

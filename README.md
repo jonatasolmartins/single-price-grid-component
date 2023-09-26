@@ -95,6 +95,7 @@ I also put in practice everything I've leran about grid-template-area.
 
 To use the grid-template-areas you first make your container a grid and then you give a name for each item on the grid.
 
+
 ```css
 .join-community-grid {
     display: grid;
